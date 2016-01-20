@@ -11,6 +11,7 @@ class smart : public QMainWindow
 {
     Q_OBJECT
 
+
 public:
     explicit smart(QWidget *parent = 0);
     ~smart();
@@ -18,10 +19,5 @@ public:
 private:
     Ui::smart *ui;
 };
-
-private slots:
-
-    void showTime();
-
 
 #endif // SMART_H

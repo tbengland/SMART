@@ -9,14 +9,9 @@ smart::smart(QWidget *parent) :
     ui(new Ui::smart)
 {
     ui->setupUi(this);
+    QMainWindow::showFullScreen();
 }
 
-void smart::showTime()
-{
-    QTime time=QTime::currentTime();
-
-
-}
 
 smart::~smart()
 {
