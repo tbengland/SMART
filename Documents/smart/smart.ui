@@ -297,6 +297,16 @@
     <property name="lineWidth">
      <number>2</number>
     </property>
+    <widget class="QLCDNumber" name="lcdNumber">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>450</width>
+       <height>250</height>
+      </rect>
+     </property>
+    </widget>
    </widget>
    <widget class="QFrame" name="calendarFrame">
     <property name="geometry">
