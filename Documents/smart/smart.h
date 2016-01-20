@@ -19,4 +19,9 @@ private:
     Ui::smart *ui;
 };
 
+private slots:
+
+    void showTime();
+
+
 #endif // SMART_H
